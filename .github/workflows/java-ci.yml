@@ -2,6 +2,8 @@ name: Java CI
 
 on:
   push:
+    branches:
+      - master
 
 jobs:
   build:
@@ -18,7 +20,6 @@ jobs:
 
       - name: Build with Maven
         run: |
-          ./mvnw test
+          ./mvnw clean test
         env:
           MAVEN_OPTS: -Dmaven.repo.local=$GITHUB_WORKSPACE/.m2/repository
-
