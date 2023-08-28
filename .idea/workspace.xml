@@ -59,7 +59,7 @@
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
-  <component name="RunManager" selected="JUnit.Tests">
+  <component name="RunManager">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="org.example.Main" />
       <module name="software_og_Test_oblig1" />
@@ -73,7 +73,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Tests" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="LeapYearTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="software_og_Test_oblig1" />
       <extension name="coverage">
         <pattern>
@@ -82,13 +82,13 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="org.example" />
-      <option name="MAIN_CLASS_NAME" value="org.example.Tests" />
+      <option name="MAIN_CLASS_NAME" value="org.example.LeapYearTest" />
       <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Tests.testDivisibleBy4ButNotBy100" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="LeapYearTest.testDivisibleBy4ButNotBy100" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="software_og_Test_oblig1" />
       <extension name="coverage">
         <pattern>
@@ -97,14 +97,14 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="org.example" />
-      <option name="MAIN_CLASS_NAME" value="org.example.Tests" />
+      <option name="MAIN_CLASS_NAME" value="org.example.LeapYearTest" />
       <option name="METHOD_NAME" value="testDivisibleBy4ButNotBy100" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Tests.testIsLeapYearTrue" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="LeapYearTest.testIsLeapYearTrue" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="software_og_Test_oblig1" />
       <extension name="coverage">
         <pattern>
@@ -113,14 +113,14 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="org.example" />
-      <option name="MAIN_CLASS_NAME" value="org.example.Tests" />
+      <option name="MAIN_CLASS_NAME" value="org.example.LeapYearTest" />
       <option name="METHOD_NAME" value="testIsLeapYearTrue" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Tests.testNotDivisibleBy4" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="LeapYearTest.testNotDivisibleBy4" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="software_og_Test_oblig1" />
       <extension name="coverage">
         <pattern>
@@ -129,7 +129,7 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="org.example" />
-      <option name="MAIN_CLASS_NAME" value="org.example.Tests" />
+      <option name="MAIN_CLASS_NAME" value="org.example.LeapYearTest" />
       <option name="METHOD_NAME" value="testNotDivisibleBy4(int)" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
@@ -138,11 +138,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.Tests" />
-        <item itemvalue="JUnit.Tests.testNotDivisibleBy4" />
-        <item itemvalue="JUnit.Tests.testDivisibleBy4ButNotBy100" />
+        <item itemvalue="JUnit.LeapYearTest" />
+        <item itemvalue="JUnit.LeapYearTest.testNotDivisibleBy4" />
+        <item itemvalue="JUnit.LeapYearTest.testDivisibleBy4ButNotBy100" />
         <item itemvalue="Application.Main" />
-        <item itemvalue="JUnit.Tests.testIsLeapYearTrue" />
+        <item itemvalue="JUnit.LeapYearTest.testIsLeapYearTrue" />
       </list>
     </recent_temporary>
   </component>
