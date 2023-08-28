@@ -1,0 +1,1 @@
+I have changed my Tests class to LeapYearTest. I have also swapped out @parametertest to @test to get it to work with github actions. I also used a template from github to make maven.yml and just added " - name: Run Tests run: mvn -B test" at the end to run the tests.
