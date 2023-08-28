@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f93af08f-60c0-42ad-ad5f-fb19a54bf457" name="Changes" comment="1.1">
+    <list default="true" id="f93af08f-60c0-42ad-ad5f-fb19a54bf457" name="Changes" comment="1.2">
       <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Tests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/Tests.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -21,6 +21,7 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="UPDATE_TYPE" value="REBASE" />
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
@@ -156,7 +157,7 @@
       <workItem from="1692959303059" duration="231000" />
       <workItem from="1692959554904" duration="375000" />
       <workItem from="1693220478153" duration="3767000" />
-      <workItem from="1693226341190" duration="79000" />
+      <workItem from="1693226341190" duration="138000" />
     </task>
     <task id="LOCAL−00001" summary="s">
       <created>1693221160083</created>
@@ -236,7 +237,13 @@
       <option name="presentableId" value="LOCAL−00013" />
       <updated>1693226383770</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL−00014" summary="1.2">
+      <created>1693226435815</created>
+      <option name="number" value="LOCAL−00014" />
+      <option name="presentableId" value="LOCAL−00014" />
+      <updated>1693226435815</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -256,6 +263,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="s" />
     <MESSAGE value="1.1" />
-    <option name="LAST_COMMIT_MESSAGE" value="1.1" />
+    <MESSAGE value="1.2" />
+    <option name="LAST_COMMIT_MESSAGE" value="1.2" />
   </component>
 </project>
