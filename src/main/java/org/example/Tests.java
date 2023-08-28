@@ -1,19 +1,35 @@
 package org.example;
-
-import org.junit.Test;
+import org.junit.jupiter.params.ParameterizedTest;
+import org.junit.jupiter.params.provider.ValueSource;
+import static org.junit.Assert.*;
 
 public class Tests {
 
-    @Test
-    public Boolean isLeapYear(int year){
+    @ParameterizedTest
+    @ValueSource(ints = {2004, 2008, 2012})
+    public void testYearsDivisibleByFourButNotOneHundredAreLeapYears(int year) {
+        assertTrue(LeapYear.isLeapYear(year));
+    }
+    // tests if the year is divisible by 4 but not by 100.
 
-    float test1 = year / 4;
-    float test2 = year / 100;
-    float test3 = year / 400;
+    @ParameterizedTest
+    @ValueSource(ints = {2000, 2400})
+    public void testYearsDivisibleByFourHundredAreLeapYears(int year) {
+        assertTrue(LeapYear.isLeapYear(year));
+    }
+    // tests if the year is divisible by 400.
 
-    if(test1 % 1 == 0 && test3 % 1 == 0 && !(test2 % 1 == 0)) { return true;}
+    @ParameterizedTest
+    @ValueSource(ints = {2005, 2010, 2022})
+    public void testYearsNotDivisibleByFourAreNotLeapYears(int year) {
+        assertFalse(LeapYear.isLeapYear(year));
+    }
+    // tests if the year is not divisible by 4.
 
-    else {return false;}
-
-}
+    @ParameterizedTest
+    @ValueSource(ints = {1900, 2100})
+    public void testYearsDivisibleByOnehundredAndNotByFourHundredAreNotLeapYears(int year) {
+        assertFalse(LeapYear.isLeapYear(year));
+    }
+    // tests if the year is divisible by 100 but not by 400.
 }
