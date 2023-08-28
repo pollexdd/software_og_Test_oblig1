@@ -32,5 +32,5 @@ public class Tests {
     public void testYearsDivisibleByOnehundredAndNotByFourHundredAreNotLeapYears(int year) {
         assertFalse(LeapYear.isLeapYear(year));
     }
-    // tests if the year is divisible by 100 but not by 400.
+    // tests if the year is divisible by 100 but not by 400. xd
 }
