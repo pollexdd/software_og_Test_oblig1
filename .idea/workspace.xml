@@ -4,8 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f93af08f-60c0-42ad-ad5f-fb19a54bf457" name="Changes" comment="1.2.4">
-      <change beforePath="$PROJECT_DIR$/.github/workflows/maven.yml" beforeDir="false" afterPath="$PROJECT_DIR$/.github/workflows/maven.yml" afterDir="false" />
+    <list default="true" id="f93af08f-60c0-42ad-ad5f-fb19a54bf457" name="Changes" comment="1.2.5">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Tests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/Tests.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -157,7 +159,7 @@
       <workItem from="1692959303059" duration="231000" />
       <workItem from="1692959554904" duration="375000" />
       <workItem from="1693220478153" duration="3767000" />
-      <workItem from="1693226341190" duration="1806000" />
+      <workItem from="1693226341190" duration="2007000" />
     </task>
     <task id="LOCAL−00001" summary="s">
       <created>1693221160083</created>
@@ -261,7 +263,13 @@
       <option name="presentableId" value="LOCAL−00017" />
       <updated>1693227879771</updated>
     </task>
-    <option name="localTasksCounter" value="18" />
+    <task id="LOCAL−00018" summary="1.2.5">
+      <created>1693228166932</created>
+      <option name="number" value="LOCAL−00018" />
+      <option name="presentableId" value="LOCAL−00018" />
+      <updated>1693228166932</updated>
+    </task>
+    <option name="localTasksCounter" value="19" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -283,6 +291,7 @@
     <MESSAGE value="1.1" />
     <MESSAGE value="1.2" />
     <MESSAGE value="1.2.4" />
-    <option name="LAST_COMMIT_MESSAGE" value="1.2.4" />
+    <MESSAGE value="1.2.5" />
+    <option name="LAST_COMMIT_MESSAGE" value="1.2.5" />
   </component>
 </project>
