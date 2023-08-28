@@ -1,4 +1,5 @@
 package org.example;
+import org.junit.jupiter.api.Test;
 import org.junit.jupiter.params.ParameterizedTest;
 import org.junit.jupiter.params.provider.ValueSource;
 import static org.junit.jupiter.api.Assertions.assertFalse;
@@ -6,6 +7,7 @@ import static org.junit.jupiter.api.Assertions.assertTrue;
 
 public class Tests {
 
+    @Test
     @ParameterizedTest
     @ValueSource(ints = {2004, 2008, 2012})
     public void testYearsDivisibleByFourButNotOneHundredAreLeapYears(int year) {
@@ -13,6 +15,7 @@ public class Tests {
     }
     // tests if the year is divisible by 4 but not by 100.
 
+    @Test
     @ParameterizedTest
     @ValueSource(ints = {2000, 2400})
     public void testYearsDivisibleByFourHundredAreLeapYears(int year) {
@@ -20,6 +23,7 @@ public class Tests {
     }
     // tests if the year is divisible by 400.
 
+    @Test
     @ParameterizedTest
     @ValueSource(ints = {2005, 2010, 2022})
     public void testYearsNotDivisibleByFourAreNotLeapYears(int year) {
@@ -27,6 +31,7 @@ public class Tests {
     }
     // tests if the year is not divisible by 4.
 
+    @Test
     @ParameterizedTest
     @ValueSource(ints = {1900, 2100})
     public void testYearsDivisibleByOnehundredAndNotByFourHundredAreNotLeapYears(int year) {
